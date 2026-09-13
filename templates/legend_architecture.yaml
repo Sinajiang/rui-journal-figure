@@ -1,0 +1,7 @@
+figures:
+  1:
+    panels: [A, B, C, D]
+    legend_order: [A, B, C, D]
+  2:
+    panels: [A, B, C, D]
+    legend_order: [A, B, C, D]

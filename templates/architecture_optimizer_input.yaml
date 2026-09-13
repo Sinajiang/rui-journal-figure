@@ -1,0 +1,38 @@
+project:
+  title: ""
+  target_journal: ""
+  scientific_authority: ""
+  manuscript_authority: ""
+
+claims:
+  C001:
+    priority: 10
+    must_cover_main: true
+  C002:
+    priority: 8
+    must_cover_main: false
+
+constraints:
+  figure_count_min: 3
+  figure_count_max: 5
+  max_panels_per_figure: 4
+  max_visual_density_per_figure: 26
+  redundancy_threshold: 0.72
+  allow_structurally_adaptable: true
+  minimum_main_claim_coverage: 0.85
+
+benchmark_prior:
+  preferred_main_figure_count: 4
+  preferred_panel_count_range: [3, 4]
+  preferred_schematic_fraction_range: [0.10, 0.30]
+  preferred_evidence_sequence:
+    - design
+    - anchor
+    - participant
+    - robustness
+    - external_context
+
+journal_constraints:
+  max_main_displays: null
+
+panel_inventory_tsv: panel_candidate_inventory.tsv

@@ -1,0 +1,29 @@
+{
+  "figures": [
+    {
+      "figure": 1,
+      "theme": "design+primary",
+      "panels": [
+        "P1",
+        "P2"
+      ],
+      "claim_ids": [
+        "C1"
+      ],
+      "total_visual_density": 9
+    },
+    {
+      "figure": 2,
+      "theme": "robustness+external",
+      "panels": [
+        "P3",
+        "P4"
+      ],
+      "claim_ids": [
+        "C2",
+        "C3"
+      ],
+      "total_visual_density": 13
+    }
+  ]
+}

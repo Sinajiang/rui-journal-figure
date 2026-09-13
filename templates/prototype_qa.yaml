@@ -1,0 +1,19 @@
+prototype_id: ""
+candidate_id: ""
+hard_gates:
+  scientific: null
+  architecture: null
+  journal: null
+  source_traceability: null
+  layout: null
+visual_metrics:
+  panel_balance: null
+  density_feasibility: null
+  whitespace_efficiency: null
+  anchor_visibility: null
+  benchmark_visual_concordance: null
+  overall_visual_score: null
+manual_visual_review:
+  status: pending
+  notes: []
+decision: HOLD

@@ -1,0 +1,6 @@
+panel_id	theme	claim_ids	source_ids	role	evidence_family	chart_type	availability	main_eligible	must_main	priority	contribution_score	benchmark_support_score	source_traceability_score	visual_density	narrative_order	current_location	redundancy_group	notes
+P1	design	C1	S1	workflow	design	workflow	DIRECTLY_AVAILABLE	true	true	9	8	8	10	4	1	main	design	
+P2	primary	C1	S2	anchor	primary_effect	effect_plot	DIRECTLY_AVAILABLE	true	true	10	10	9	10	6	2	main	primary	
+P3	primary	C2	S3	participant	participant_level	dot_box	DIRECTLY_AVAILABLE	true	false	9	9	8	10	5	3	main	participant	
+P4	robustness	C2	S4	robustness	robustness	lollipop	DIRECTLY_AVAILABLE	true	false	8	8	8	10	5	4	main	robustness	
+P5	external	C3	S5	external_context	external_context	evidence_matrix	DIRECTLY_AVAILABLE	true	false	8	8	9	10	5	5	main	external	

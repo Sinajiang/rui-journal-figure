@@ -1,0 +1,33 @@
+project:
+  title: ""
+  target_journal: ""
+  journal_stage: ""
+  scientific_authority: ""
+  manuscript_authority: ""
+  journal_profile_retrieved: ""
+
+global_style:
+  font_family: "DejaVu Sans"
+  panel_label_case: upper
+  semantic_colors:
+    group_a: "#4C78A8"
+    group_b: "#E17C35"
+    positive: "#4C78A8"
+    negative: "#E17C35"
+    neutral: "#8A8A8A"
+
+figures:
+  - number: 1
+    promoted: true
+    promoted_version: ""
+    scientific_authority: ""
+    pdf: ""
+    svg: ""
+    tiff: ""
+    preview: ""
+    legend: ""
+    source_data_dir: ""
+    provenance: ""
+    style_contract: ""
+    expected_panel_labels: [A, B, C, D]
+    semantic_color_exceptions: {}

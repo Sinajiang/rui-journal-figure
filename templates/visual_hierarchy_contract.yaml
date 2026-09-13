@@ -1,0 +1,57 @@
+global:
+  font_family: "DejaVu Sans"
+  base_axis_label_size_pt: 6.5
+  base_tick_label_size_pt: 5.7
+  base_annotation_size_pt: 5.9
+  panel_label_size_pt: 8.0
+  operational_min_font_pt: 5.5
+  base_marker_size_pt: 4.0
+  base_line_width_pt: 0.8
+  max_font_delta_pt: 0.3
+
+tiers:
+  ANCHOR:
+    axis_delta_pt: 0.2
+    tick_delta_pt: 0.2
+    annotation_delta_pt: 0.2
+    marker_scale: 1.15
+    line_scale: 1.12
+    annotation_priority: 5
+  MAJOR_SUPPORT:
+    axis_delta_pt: 0.1
+    tick_delta_pt: 0.1
+    annotation_delta_pt: 0.1
+    marker_scale: 1.05
+    line_scale: 1.05
+    annotation_priority: 4
+  SUPPORT:
+    axis_delta_pt: 0.0
+    tick_delta_pt: 0.0
+    annotation_delta_pt: 0.0
+    marker_scale: 1.00
+    line_scale: 1.00
+    annotation_priority: 3
+  CONTEXT:
+    axis_delta_pt: -0.1
+    tick_delta_pt: -0.1
+    annotation_delta_pt: -0.1
+    marker_scale: 0.95
+    line_scale: 0.95
+    annotation_priority: 2
+  PROVENANCE:
+    axis_delta_pt: 0.0
+    tick_delta_pt: 0.0
+    annotation_delta_pt: -0.1
+    marker_scale: 0.95
+    line_scale: 0.95
+    annotation_priority: 1
+
+budget:
+  avg_glyph_width_factor: 0.52
+  line_height_factor: 1.25
+  annotation_height_fraction: 0.28
+  legend_height_fraction: 0.38
+  horizontal_tick_spacing_em: 4.2
+  vertical_tick_spacing_em: 1.55
+  max_annotation_lines_cap: 5
+  max_legend_items_cap: 10

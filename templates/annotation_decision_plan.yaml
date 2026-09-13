@@ -1,0 +1,18 @@
+version: 2.5.1
+figure_id: Figure_1
+summary:
+  direct_count: 0
+  legend_count: 0
+  suppress_count: 0
+  shared_legend_clauses: []
+panels:
+  - panel_id: P01
+    tier: ANCHOR
+    direct_annotations: []
+    legend_annotations: []
+    suppressed_annotations: []
+    density:
+      direct_count: 0
+      legend_statistical_clauses: 0
+      legend_method_clauses: 0
+review_flags: []

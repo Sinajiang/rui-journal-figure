@@ -1,0 +1,64 @@
+domain_id: prediction_modeling
+display_name: Clinical prediction / risk modeling
+keywords:
+- prediction
+- predictive
+- AUC
+- ROC
+- calibration
+- Brier
+- log-loss
+- decision curve
+- external validation
+- machine learning
+- risk model
+- C-index
+core_questions:
+- How were derivation and validation separated?
+- How well does the model discriminate?
+- How well is it calibrated?
+- Does it add clinically useful information?
+- Does performance transport to external/held-out data?
+main_figure_archetypes:
+- name: derivation_validation_design
+  evidence_families:
+  - design
+  - validation_structure
+- name: discrimination
+  evidence_families:
+  - discrimination
+- name: calibration
+  evidence_families:
+  - calibration
+- name: clinical_utility
+  evidence_families:
+  - decision_curve
+  optional: true
+- name: external_validation
+  evidence_families:
+  - external_validation
+  - robustness
+preferred_chart_types:
+- roc
+- calibration
+- effect_plot
+- decision_curve
+- scatter
+- lollipop
+supplementary_preferred:
+- hyperparameter_search
+- all_feature_importance
+- internal_cv_detail
+- threshold_tables
+risk_flags:
+- roc_only
+- no_calibration
+- feature_importance_as_performance
+- internal_cv_as_external_validation
+benchmark_terms:
+- prediction model
+- calibration
+- external validation
+- discrimination
+- decision curve
+- risk prediction

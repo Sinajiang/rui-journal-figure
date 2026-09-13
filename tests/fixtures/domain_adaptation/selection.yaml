@@ -1,0 +1,15 @@
+primary_domain: transcriptomics_bulk
+secondary_domains:
+- clinical_cohort
+confidence: high
+selection_basis:
+  manuscript_keywords:
+  - RNA-seq
+  - pseudobulk
+  - participant
+  source_columns:
+  - gene
+  - logFC
+  - FDR
+  user_declared: false
+manual_confirmation_required: false

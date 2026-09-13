@@ -1,0 +1,22 @@
+sentinels:
+- id: S1
+  source_path: effects.tsv
+  kind: row_count
+  expected: 3
+- id: S2
+  source_path: effects.tsv
+  kind: exact_value
+  where:
+    gene: A
+  column: logFC
+  expected: 0.5
+  tolerance: 1.0e-12
+- id: S3
+  source_path: matrix.tsv
+  kind: category_set
+  column: status
+  expected:
+  - gene
+  - composite
+  - missing
+  - opposite

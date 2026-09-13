@@ -1,0 +1,47 @@
+project:
+  title: Synthetic
+  target_journal: Test Journal
+  journal_stage: submission
+  scientific_authority: v1
+  manuscript_authority: m1
+  journal_profile_retrieved: '2026-09-13'
+global_style:
+  font_family: DejaVu Sans
+  panel_label_case: upper
+  semantic_colors:
+    group_a: '#4C78A8'
+    group_b: '#E17C35'
+    positive: '#4C78A8'
+    negative: '#E17C35'
+    neutral: '#8A8A8A'
+figures:
+- number: 1
+  promoted: true
+  promoted_version: v1
+  scientific_authority: v1
+  pdf: fig1/Figure_1.pdf
+  svg: fig1/Figure_1.svg
+  tiff: fig1/Figure_1.tiff
+  preview: fig1/Figure_1_preview.png
+  legend: fig1/Figure_1_legend.txt
+  source_data_dir: fig1/SOURCE_DATA
+  provenance: fig1/Figure_1_provenance.json
+  style_contract: fig1/Figure_1_style.yaml
+  expected_panel_labels:
+  - A
+  semantic_color_exceptions: {}
+- number: 2
+  promoted: false
+  promoted_version: v2
+  scientific_authority: v1
+  pdf: fig2/Figure_2.pdf
+  svg: fig2/Figure_2.svg
+  tiff: fig2/Figure_2.tiff
+  preview: fig2/Figure_2_preview.png
+  legend: fig2/Figure_2_legend.txt
+  source_data_dir: fig2/SOURCE_DATA
+  provenance: fig2/Figure_2_provenance.json
+  style_contract: fig2/Figure_2_style.yaml
+  expected_panel_labels:
+  - A
+  semantic_color_exceptions: {}

@@ -1,0 +1,13 @@
+figure: ""
+checks:
+  no_page_clipping: null
+  no_internal_text_overlap: null
+  no_text_line_collision: null
+  legend_outside_data_when_needed: null
+  panel_labels_clear: null
+  minimum_text_size_pass: null
+  alignment_pass: null
+  color_semantics_consistent: null
+  final_size_manual_review_pass: null
+decision: pending
+review_notes: []

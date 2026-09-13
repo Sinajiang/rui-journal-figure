@@ -1,0 +1,8 @@
+Introduction
+Synthetic project.
+Methods
+We used a synthetic dataset.
+Results
+Primary result.
+Discussion
+Done.

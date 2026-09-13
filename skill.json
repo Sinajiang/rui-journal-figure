@@ -1,0 +1,194 @@
+{
+  "name": "top-journal-figure-pro",
+  "version": "2.5.1",
+  "language": [
+    "zh-CN",
+    "en"
+  ],
+  "primary_backend": "Python",
+  "design_mode": "contract-first / baseline-lock / surgical-repair",
+  "hard_principles": [
+    "scientific fidelity",
+    "evidence architecture",
+    "collision-free final rendering",
+    "vector-first output",
+    "manual terminal visual QA"
+  ],
+  "production_hardening": {
+    "semantic_layout_contract": true,
+    "rendered_object_geometry_audit": true,
+    "diagnostic_overlay": true,
+    "synthetic_tests": true
+  },
+  "test_status": "PASS",
+  "pytest_summary": "94 passed in 15.09s",
+  "journal_aware": {
+    "profiles": [
+      "Nature",
+      "Headache",
+      "Brain Communications"
+    ],
+    "retrieved": "2026-09-13",
+    "stage_specific": true,
+    "unknowns_preserved": true
+  },
+  "evidence_intelligence": {
+    "bidirectional_evidence_graph": true,
+    "citation_audit": true,
+    "legend_architecture_audit": true,
+    "supplementary_numbering_audit": true,
+    "claim_strength_review": true
+  },
+  "planning_intelligence": {
+    "internal_evidence_inventory": true,
+    "benchmark_informed": true,
+    "candidate_generation": true,
+    "candidate_scoring": true,
+    "optional_analysis_separation": true
+  },
+  "benchmark_retrieval": {
+    "autonomous_query_generation": true,
+    "provenance_logging": true,
+    "doi_title_deduplication": true,
+    "relevance_weighted_ranking": true,
+    "diversity_aware_selection": true,
+    "search_saturation": true,
+    "benchmark_dossier": true
+  },
+  "architecture_optimizer": {
+    "multi_figure_count_search": true,
+    "redundancy_scoring": true,
+    "main_supp_optimization": true,
+    "claim_coverage_audit": true,
+    "visual_density_capacity": true,
+    "panel_actions": true,
+    "benchmark_soft_prior": true
+  },
+  "prototype_promotion_loop": {
+    "structural_prototype_generator": true,
+    "no_data_watermark": true,
+    "structural_visual_scoring": true,
+    "baseline_comparison": true,
+    "promotion_states": [
+      "PROMOTE",
+      "REPAIR",
+      "ROLLBACK",
+      "HOLD"
+    ],
+    "surgical_repair_planning": true
+  },
+  "real_data_engine": {
+    "declarative_render_spec": true,
+    "frozen_sentinels": true,
+    "source_data_exports": true,
+    "vector_first_export": true,
+    "provenance_logging": true,
+    "built_in_chart_families": [
+      "dot_box",
+      "paired_dot",
+      "effect_plot",
+      "lollipop",
+      "scatter",
+      "grouped_bar",
+      "heatmap",
+      "evidence_matrix",
+      "workflow"
+    ]
+  },
+  "release_note": "v2.5.1 corrective release closes inferential-unit scoping, CI/effect formatting, legend fail-closed behavior, figure-scoped plan injection, and automatic workflow binding of annotation decisions to render specs.",
+  "submission_compiler": {
+    "cross_figure_style_audit": true,
+    "semantic_color_consistency": true,
+    "raster_audit": true,
+    "contact_sheet": true,
+    "source_data_compilation": true,
+    "legend_compilation": true,
+    "provenance_compilation": true,
+    "sha256_manifest": true,
+    "submission_ready_state": true
+  },
+  "unified_workflow": {
+    "state_machine": true,
+    "checkpointing": true,
+    "resume": true,
+    "dry_run": true,
+    "stage_reset": true,
+    "agent_action_gates": true,
+    "human_review_gates": true,
+    "fail_closed": true,
+    "final_state": "FIGURE_PACKAGE_SUBMISSION_READY"
+  },
+  "domain_adaptation": {
+    "profiles": [
+      "transcriptomics_bulk",
+      "single_cell",
+      "clinical_cohort",
+      "survival_longitudinal",
+      "prediction_modeling",
+      "meta_analysis",
+      "multimodal_clinical"
+    ],
+    "domain_inference": true,
+    "primary_secondary_domains": true,
+    "domain_architecture_audit": true,
+    "workflow_stage": "DOMAIN_GRAMMAR"
+  },
+  "contribution_optimizer": {
+    "scientific_contribution_scoring": true,
+    "visual_area_allocation": true,
+    "density_aware": true,
+    "anchor_area_floor": true,
+    "workflow_area_cap": true,
+    "contribution_area_inversion_audit": true,
+    "weighted_prototype": true,
+    "workflow_stage": "VISUAL_WEIGHTING"
+  },
+  "layout_grammar": {
+    "benchmark_geometry_annotation": true,
+    "relevance_weighted_aggregation": true,
+    "contribution_weight_integration": true,
+    "workflow_stage": "LAYOUT_GRAMMAR"
+  },
+  "visual_hierarchy_engine": {
+    "physical_typography_budget": true,
+    "hierarchy_tiers": [
+      "ANCHOR",
+      "MAJOR_SUPPORT",
+      "SUPPORT",
+      "CONTEXT",
+      "PROVENANCE"
+    ],
+    "label_density_audit": true,
+    "annotation_budget": true,
+    "marker_line_emphasis": true,
+    "render_spec_injection": true,
+    "hierarchy_aware_renderer": true,
+    "workflow_stage": "VISUAL_HIERARCHY"
+  },
+  "annotation_legend_intelligence": {
+    "three_way_disposition": [
+      "DIRECT",
+      "LEGEND",
+      "SUPPRESS"
+    ],
+    "claim_importance_weighting": true,
+    "statistical_necessity_weighting": true,
+    "benchmark_soft_priors": true,
+    "effect_uncertainty_priority": true,
+    "multiplicity_aware_significance": true,
+    "ci_deduplication": true,
+    "sample_size_placement": true,
+    "direction_deduplication": true,
+    "legend_density_control": true,
+    "precision_control": true,
+    "render_spec_injection": true,
+    "workflow_stage": "ANNOTATION_INTELLIGENCE",
+    "inferential_unit_scoping": true,
+    "ci_bounds_support": true,
+    "effect_metric_support": true,
+    "numeric_validity_audit": true,
+    "figure_scoped_plan_injection": true,
+    "workflow_auto_binding": true,
+    "unresolved_legend_restructure_blocks_promotion": true
+  }
+}

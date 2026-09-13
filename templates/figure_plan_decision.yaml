@@ -1,0 +1,11 @@
+project: ""
+target_journal: ""
+candidate_scores: []
+recommended_candidate: ""
+recommendation_reason: ""
+promoted_main_figures: []
+supplementary_moves: []
+analysis_upgrade_candidates: []
+evidence_ceiling: []
+benchmark_influence_summary: []
+manual_review_required: true

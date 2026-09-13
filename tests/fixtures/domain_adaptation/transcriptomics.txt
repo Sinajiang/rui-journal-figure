@@ -1,0 +1,4 @@
+Methods
+PBMC RNA-seq pseudobulk differential expression using limma and edgeR.
+Results
+Gene expression differences were evaluated at participant level with external validation.

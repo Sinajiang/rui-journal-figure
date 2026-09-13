@@ -1,0 +1,64 @@
+journal: Nature
+publisher: Springer Nature
+retrieved: '2026-09-13'
+official_sources:
+- https://www.nature.com/nature/for-authors/initial-submission
+- https://www.nature.com/nature/for-authors/final-submission
+- https://www.nature.com/nature/for-authors/formatting-guide
+stages:
+  initial_submission:
+    preferred_width_mm:
+    - 90
+    - 180
+    max_height_mm: 170
+    font_pt:
+      min: 5
+      max: 7
+    color_mode: RGB
+    raster_dpi_min: 300
+    vector_preferred: true
+    editable_layers_preferred: true
+    accepted_vector_formats:
+    - ai
+    - eps
+    - pdf
+    - ps
+    - svg
+    accepted_bitmap_formats:
+    - psd
+    - tif
+    - tiff
+    - png
+    - jpg
+    - jpeg
+    panel_labels:
+      case: lower
+      bold: true
+    notes:
+    - Figures should be small and simple while remaining clear.
+    - Avoid unnecessary complexity, colouring, excessive detail, and unnecessary panels.
+    - Use Arial or Helvetica consistently.
+    - Avoid red-green contrast and rainbow colour scales.
+  final_submission:
+    preferred_width_mm:
+    - 89
+    - 120
+    - 136
+    - 183
+    full_page_depth_mm: 247
+    font_pt:
+      min: 5
+      max: 7
+    panel_label_pt: 8
+    panel_labels:
+      case: lower
+      bold: true
+    line_width_pt:
+      min: 0.25
+      max: 1.0
+    vector_preferred: true
+    editable_layers_preferred: true
+    do_not_outline_text: true
+    notes:
+    - Nature may reduce figures; verify readability at the smallest plausible size.
+    - Do not rasterize line art or text.

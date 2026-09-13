@@ -1,0 +1,15 @@
+journal: ""
+publisher: ""
+retrieved: ""
+official_sources: []
+stages:
+  submission:
+    preferred_width_mm: null
+    max_height_mm: null
+    font_pt:
+      min: null
+      max: null
+    raster_dpi_min: null
+    vector_preferred: null
+    preferred_format: []
+    notes: []

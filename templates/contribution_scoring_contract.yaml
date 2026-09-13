@@ -1,0 +1,33 @@
+weights:
+  claim_priority: 1.5
+  contribution_score: 1.5
+  source_traceability: 1.1
+  benchmark_support: 0.8
+  role_directness: 1.2
+  density_need: 0.7
+  redundancy_penalty: 1.0
+
+role_directness_scores:
+  anchor: 10
+  primary: 10
+  participant: 8
+  donor_level: 8
+  replication: 10
+  orthogonal: 8
+  robustness: 7
+  sensitivity: 6
+  mechanism: 8
+  external_context: 5
+  context: 4
+  workflow: 3
+  provenance: 2
+  boundary: 4
+
+visual_weight_rules:
+  anchor_floor_share: 0.30
+  workflow_cap_share: 0.22
+  minimum_panel_share: 0.12
+  maximum_panel_share: 0.58
+  contribution_inversion_tolerance: 1.0
+  dense_panel_threshold: 7.0
+  dense_panel_min_share: 0.20

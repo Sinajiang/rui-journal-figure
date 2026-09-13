@@ -1,0 +1,37 @@
+{
+  "topology": {
+    "dominant": "anchor_left_stack_right",
+    "frequencies": {
+      "anchor_left_stack_right": 0.7
+    }
+  },
+  "anchor_area_share": {
+    "median": 0.4,
+    "q1": 0.34,
+    "q3": 0.46
+  },
+  "workflow_area_share": {
+    "median": 0.12,
+    "q1": 0.08,
+    "q3": 0.16
+  },
+  "white_space_fraction": {
+    "median": 0.15,
+    "q1": 0.12,
+    "q3": 0.18
+  },
+  "legend_strategy": {
+    "dominant": "shared_bottom",
+    "frequencies": {
+      "shared_bottom": 0.7
+    }
+  },
+  "role_area_priors": {
+    "anchor": {
+      "median": 0.4,
+      "q1": 0.34,
+      "q3": 0.46,
+      "n": 3
+    }
+  }
+}

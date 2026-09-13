@@ -1,0 +1,186 @@
+scientific_authority: v-test
+manuscript_authority: m-test
+claims:
+- id: C001
+  section: Results
+  locator: p1
+  text: primary effect
+  strength: differential
+  status: DIRECT
+  figure_links:
+  - figure: 1
+    panel: C
+- id: C002
+  section: Results
+  locator: p2
+  text: robustness
+  strength: association
+  status: ROBUSTNESS
+  figure_links:
+  - figure: 2
+    panel: A
+  - figure: 2
+    panel: B
+- id: C003
+  section: Results
+  locator: p3
+  text: donor-level
+  strength: differential
+  status: SUPPORTING
+  figure_links:
+  - figure: 3
+    panel: B
+- id: C004
+  section: Results
+  locator: p4
+  text: external context
+  strength: descriptive
+  status: CONTEXTUAL
+  figure_links:
+  - figure: 4
+    panel: B
+- id: C005
+  section: Results
+  locator: p4
+  text: paired state
+  strength: differential
+  status: SUPPORTING
+  figure_links:
+  - figure: 4
+    panel: C
+figures:
+  '1':
+    claim: primary
+    promoted_version: v1
+    panels:
+      A:
+        role: workflow
+        source_id: null
+        statistic: null
+        legend_clause_id: L1A
+        claim_ids: []
+      C:
+        role: anchor
+        source_id: S1
+        statistic: effect
+        legend_clause_id: L1C
+        claim_ids:
+        - C001
+  '2':
+    claim: robustness
+    promoted_version: v1
+    panels:
+      A:
+        role: robustness
+        source_id: S2
+        statistic: fraction
+        legend_clause_id: L2A
+        claim_ids:
+        - C002
+      B:
+        role: robustness
+        source_id: S2
+        statistic: range
+        legend_clause_id: L2B
+        claim_ids:
+        - C002
+  '3':
+    claim: donor
+    promoted_version: v1
+    panels:
+      B:
+        role: supporting
+        source_id: S999
+        statistic: logCPM
+        legend_clause_id: L3B
+        claim_ids:
+        - C003
+  '4':
+    claim: context
+    promoted_version: v1
+    panels:
+      B:
+        role: context
+        source_id: S4
+        statistic: matrix
+        legend_clause_id: L4B
+        claim_ids:
+        - C004
+      C:
+        role: supporting
+        source_id: S5
+        statistic: mean difference
+        legend_clause_id: L4C
+        claim_ids:
+        - C005
+sources:
+  S1:
+    identifier: s1
+    path: x
+    authority: v-test
+    transformation: ''
+    rerun_allowed: false
+    sentinels: []
+  S2:
+    identifier: s2
+    path: x
+    authority: v-test
+    transformation: ''
+    rerun_allowed: false
+    sentinels: []
+  S3:
+    identifier: s3
+    path: x
+    authority: v-test
+    transformation: ''
+    rerun_allowed: false
+    sentinels: []
+  S4:
+    identifier: s4
+    path: x
+    authority: v-test
+    transformation: ''
+    rerun_allowed: false
+    sentinels: []
+  S5:
+    identifier: s5
+    path: x
+    authority: v-test
+    transformation: ''
+    rerun_allowed: false
+    sentinels: []
+legend_clauses:
+  L1A:
+    figure: 1
+    panel: A
+    text: workflow
+  L1C:
+    figure: 1
+    panel: C
+    text: primary
+  L2A:
+    figure: 2
+    panel: A
+    text: robustness A
+  L2B:
+    figure: 2
+    panel: B
+    text: robustness B
+  L3B:
+    figure: 3
+    panel: B
+    text: donor
+  L4B:
+    figure: 4
+    panel: B
+    text: context
+  L4C:
+    figure: 4
+    panel: C
+    text: paired
+supplementary:
+  figures:
+  - S1
+  - S2
+  tables:
+  - S1

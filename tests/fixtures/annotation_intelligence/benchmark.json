@@ -1,0 +1,10 @@
+{
+  "annotation_statistics": {
+    "effect_size": {"direct_rate": 0.8, "legend_rate": 0.2},
+    "ci": {"direct_rate": 0.1, "legend_rate": 0.8},
+    "p_value": {"direct_rate": 0.2, "legend_rate": 0.5},
+    "fdr": {"direct_rate": 0.75, "legend_rate": 0.5},
+    "n": {"direct_rate": 0.05, "legend_rate": 0.9},
+    "direction": {"direct_rate": 0.2, "legend_rate": 0.2}
+  }
+}

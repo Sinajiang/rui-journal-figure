@@ -1,0 +1,15 @@
+project: ""
+automated:
+  numbering_pass: null
+  promoted_only_pass: null
+  required_files_pass: null
+  semantic_colors_pass: null
+  typography_pass: null
+  dpi_pass: null
+  legends_present_pass: null
+  source_data_present_pass: null
+manual:
+  contact_sheet_review: pending
+  global_visual_consistency: pending
+  notes: []
+decision: HOLD

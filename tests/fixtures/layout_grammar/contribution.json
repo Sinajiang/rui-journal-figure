@@ -1,0 +1,22 @@
+{
+  "panels": [
+    {
+      "panel_id": "P1",
+      "role": "anchor",
+      "scientific_contribution_score": 9.8,
+      "recommended_location": "main"
+    },
+    {
+      "panel_id": "P2",
+      "role": "participant",
+      "scientific_contribution_score": 8.0,
+      "recommended_location": "main"
+    },
+    {
+      "panel_id": "P3",
+      "role": "robustness",
+      "scientific_contribution_score": 7.3,
+      "recommended_location": "main"
+    }
+  ]
+}

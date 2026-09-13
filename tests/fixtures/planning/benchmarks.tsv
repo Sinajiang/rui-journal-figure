@@ -1,0 +1,4 @@
+benchmark_id	citation	journal	year	url_or_doi	article_type	scientific_similarity	method_similarity	modality_similarity	figure_relevance	use_reason
+B1	Paper 1	Nature	2025	https://example.org/1	Article	high	high	high	high	Similar evidence architecture
+B2	Paper 2	Brain Communications	2025	https://example.org/2	Article	high	medium	high	high	Similar data modality
+B3	Paper 3	Headache	2026	https://example.org/3	Research Article	high	high	medium	high	Target-journal grammar

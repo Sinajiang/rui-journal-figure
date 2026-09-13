@@ -1,0 +1,15 @@
+baseline_id: ""
+accepted_date: ""
+scientific_authority: ""
+journal_profile: ""
+architecture_score: null
+visual_score: null
+figure_count: null
+panel_structure: {}
+hard_gates_pass: true
+accepted_visual_character:
+  anchor_visibility: null
+  whitespace_balance: null
+  density_balance: null
+  schematic_fraction: null
+notes: []

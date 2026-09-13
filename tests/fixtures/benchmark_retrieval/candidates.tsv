@@ -1,0 +1,8 @@
+benchmark_id	title	authors	journal	year	doi	url	article_type	retrieval_date	search_round	search_query	target_journal_match	scientific_similarity	method_similarity	modality_similarity	sample_structure_similarity	figure_role_relevance	main_supp_transferability	figure_detail_accessibility	recency_score	verification_status	notes
+B1	Paper One	A	Headache	2026	10.1/a	https://x/1	Research Article	2026-09-13	1	q1	5	5	5	5	5	5	5	5	5	VERIFIED	
+B2	Paper Two	B	Brain Communications	2025	10.1/b	https://x/2	Article	2026-09-13	3	q2	2	5	5	5	5	5	5	5	5	VERIFIED	
+B3	Paper Three	C	Nature Communications	2024	10.1/c	https://x/3	Article	2026-09-13	3	q3	1	4	5	5	4	5	4	5	4	VERIFIED	
+B4	Paper Four	D	Headache	2025	10.1/d	https://x/4	Research Article	2026-09-13	2	q4	5	4	4	4	4	4	4	5	5	VERIFIED	
+B5	Paper Five	E	Neurology	2023	10.1/e	https://x/5	Article	2026-09-13	3	q5	1	4	4	4	4	4	4	4	3	VERIFIED	
+B6	Paper Six	F	Headache	2022	10.1/f	https://x/6	Research Article	2026-09-13	2	q6	5	3	3	3	3	3	3	3	2	FIGURE_DETAIL_UNVERIFIED	
+B7	Paper Two duplicate	B	Brain Communications	2025	https://doi.org/10.1/b	https://x/7	Article	2026-09-13	3	q7	2	5	5	5	5	5	5	5	5	VERIFIED	

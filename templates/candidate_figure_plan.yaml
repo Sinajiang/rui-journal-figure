@@ -1,0 +1,40 @@
+candidate_id: Candidate_A
+name: contribution_forward
+rationale: ""
+
+figures:
+  - figure: 1
+    figure_level_claim: ""
+    panels:
+      - panel: A
+        role: workflow
+        analysis_id: null
+        source_id: null
+        chart_type: schematic
+        evidence_status: provenance
+        benchmark_pattern_ids: []
+        availability: DIRECTLY_AVAILABLE
+      - panel: B
+        role: anchor
+        analysis_id: A001
+        source_id: ST001
+        chart_type: effect_plot
+        evidence_status: DIRECT
+        benchmark_pattern_ids: [BP001]
+        availability: DIRECTLY_AVAILABLE
+
+supplementary_moves: []
+
+analysis_upgrade_candidates: []
+
+score:
+  scientific_fidelity: null
+  claim_coverage: null
+  contribution_visibility: null
+  evidence_diversity: null
+  benchmark_concordance: null
+  journal_fit: null
+  information_efficiency: null
+  visual_feasibility: null
+  evidence_boundary_integrity: null
+  source_traceability: null

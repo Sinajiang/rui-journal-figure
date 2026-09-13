@@ -1,0 +1,18 @@
+sentinels:
+  - id: S001
+    source_path: source.tsv
+    kind: row_count
+    expected: 10
+  - id: S002
+    source_path: source.tsv
+    kind: exact_value
+    where:
+      gene: TRBC2
+    column: logFC
+    expected: 1.4230663258749
+    tolerance: 1e-12
+  - id: S003
+    source_path: source.tsv
+    kind: category_set
+    column: status
+    expected: [gene, composite, missing, opposite]

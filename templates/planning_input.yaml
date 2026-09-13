@@ -1,0 +1,34 @@
+project:
+  title: ""
+  target_journal: ""
+  article_type: ""
+  scientific_authority: ""
+  manuscript_authority: ""
+  rerun_policy: frozen
+
+manuscript:
+  methods_file: ""
+  results_file: ""
+  full_manuscript_file: ""
+  existing_legends_file: ""
+
+source_tables:
+  - id: ST001
+    path: ""
+    format: tsv
+    frozen: true
+    allowed_use: plotting_only
+
+benchmark_policy:
+  target_count_min: 3
+  target_count_max: 8
+  preferred:
+    - target_journal_similar_question
+    - target_journal_similar_article_type
+    - high_impact_peer_similar_design
+  allow_field_defining_fallback: true
+
+constraints:
+  no_new_analysis: false
+  main_figure_limit: null
+  preserve_existing_figure_count: false

@@ -1,0 +1,54 @@
+scientific_authority: ""
+manuscript_authority: ""
+
+claims:
+  - id: C001
+    section: Results
+    locator: "paragraph_1"
+    text: ""
+    strength: differential
+    status: DIRECT
+    figure_links:
+      - figure: 1
+        panel: C
+
+figures:
+  1:
+    claim: ""
+    promoted_version: ""
+    panels:
+      A:
+        role: workflow
+        source_id: null
+        statistic: null
+        legend_clause_id: L1A
+        claim_ids: []
+      C:
+        role: anchor
+        source_id: S001
+        statistic: ""
+        legend_clause_id: L1C
+        claim_ids: [C001]
+
+sources:
+  S001:
+    identifier: ""
+    path: ""
+    authority: ""
+    transformation: ""
+    rerun_allowed: false
+    sentinels: []
+
+legend_clauses:
+  L1A:
+    figure: 1
+    panel: A
+    text: ""
+  L1C:
+    figure: 1
+    panel: C
+    text: ""
+
+supplementary:
+  figures: []
+  tables: []

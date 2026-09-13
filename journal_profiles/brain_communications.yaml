@@ -1,0 +1,49 @@
+journal: Brain Communications
+publisher: Oxford University Press
+retrieved: '2026-09-13'
+official_sources:
+- https://academic.oup.com/braincomms/pages/General_Instructions
+stages:
+  review:
+    figures_may_be_embedded: true
+    notes:
+    - Separate high-resolution files are required for publication if accepted.
+  publication:
+    photo_or_halftone_dpi_min: 300
+    line_art_dpi_min: 600
+    preferred_format:
+    - tif
+    - tiff
+    page_width_mm: 216
+    page_height_mm: 279
+    layout_columns: 2
+    recommended_min_text_pt: 12
+    panel_label_pt: 12
+    panel_labels:
+      case: upper
+    min_symbol_pt: 5
+    min_line_width_pt: 0.5
+    show_all_points_if_n_lt: 10
+    avoid_red_green: true
+    notes:
+    - Figures should fit comfortably on one typeset page.
+    - Avoid unnecessary empty space or clutter.
+    - Continuous data should show all points or use defined box-and-whisker plots.
+    - Solid symbols are preferred to open symbols except to indicate overlap.
+  graphical_abstract:
+    width_mm: 120
+    height_mm: 120
+    dpi_range:
+    - 300
+    - 600
+    pixel_size_preferred:
+    - 3000
+    - 3000
+    font_pt_range:
+    - 12
+    - 16
+    formats:
+    - tif
+    - tiff
+    - pdf
+    aspect_ratio: '1:1'

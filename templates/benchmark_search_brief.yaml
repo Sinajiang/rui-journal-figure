@@ -1,0 +1,25 @@
+project:
+  title: ""
+  target_journal: ""
+  article_type: ""
+  scientific_authority: ""
+  manuscript_authority: ""
+
+concepts:
+  disease_or_topic: []
+  study_design: []
+  modality: []
+  unit_of_analysis: []
+  primary_estimand_or_outcome: []
+  key_methods: []
+  desired_figure_roles: []
+
+search_policy:
+  preferred_years_back: 5
+  allow_older_field_defining: true
+  target_journal_first: true
+  minimum_selected_benchmarks: 5
+  maximum_selected_benchmarks: 10
+  saturation_rounds_without_new_grammar: 2
+  prefer_primary_research: true
+  require_provenance: true

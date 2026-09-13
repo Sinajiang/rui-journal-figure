@@ -1,0 +1,37 @@
+figure_id: Figure_1
+figure_level_claim: ""
+target_journal: ""
+scientific_authority: ""
+manuscript_authority: ""
+physical_size_mm:
+  width: 180
+  height: null
+output_formats: [pdf, svg, tiff, png]
+panel_roles:
+  A:
+    role: workflow
+    claim: ""
+    source_data: ""
+  B:
+    role: anchor
+    claim: ""
+    source_data: ""
+frozen_sentinels:
+  - name: ""
+    expected_value: ""
+allowed_changes:
+  - layout
+  - typography
+  - legend_position
+forbidden_changes:
+  - sample_definition
+  - statistical_model
+  - effect_estimate
+  - p_value
+  - fdr
+promotion_gates:
+  scientific: true
+  structural: true
+  collision_free: true
+  final_size_visual_pass: true
+  submission_compliant: true

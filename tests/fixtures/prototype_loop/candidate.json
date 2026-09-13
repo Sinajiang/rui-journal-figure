@@ -1,0 +1,46 @@
+{
+  "figures": [
+    {
+      "figure": 1,
+      "theme": "design+primary",
+      "panels": [
+        "P1",
+        "P2"
+      ],
+      "claim_ids": [
+        "C1"
+      ],
+      "total_visual_density": 10
+    },
+    {
+      "figure": 2,
+      "theme": "robustness",
+      "panels": [
+        "P3"
+      ],
+      "claim_ids": [
+        "C2"
+      ],
+      "total_visual_density": 5
+    },
+    {
+      "figure": 3,
+      "theme": "external",
+      "panels": [
+        "P4"
+      ],
+      "claim_ids": [
+        "C3"
+      ],
+      "total_visual_density": 6
+    }
+  ],
+  "supplementary_panels": [],
+  "scores": {
+    "overall_score": 8.8
+  },
+  "hard_gates": {
+    "pass": true,
+    "failures": []
+  }
+}

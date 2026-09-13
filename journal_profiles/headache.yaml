@@ -1,0 +1,31 @@
+journal: 'Headache: The Journal of Head and Face Pain'
+publisher: Wiley
+retrieved: '2026-09-13'
+official_sources:
+- https://headachejournal.onlinelibrary.wiley.com/hub/journal/15264610/forauthors.html
+- https://authorservices.wiley.com/asset/photos/electronic_artwork_guidelines.pdf
+stages:
+  submission:
+    tone_or_photo:
+      preferred_format:
+      - tif
+      - tiff
+      dpi_min: 300
+    combination_or_labeled_artwork:
+      preferred_format:
+      - pdf
+      dpi_min: 600
+    line_art:
+      preferred_format:
+      - eps
+      - pdf
+      vector_preferred: true
+    figure_title_embedded: false
+    legend_embedded: false
+    extraneous_color_allowed: false
+    image_tables_allowed: false
+    notes:
+    - Figure titles and legends should be supplied separately from the image.
+    - Figures/tables must be cited and numbered in citation order.
+    - Journal-specific page width was not stated on the retrieved author-guidelines
+      page; do not invent one.

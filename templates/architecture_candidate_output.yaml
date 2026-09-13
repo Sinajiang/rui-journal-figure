@@ -1,0 +1,14 @@
+target_figure_count: 4
+figures:
+  - figure: 1
+    theme: primary
+    panels: [P01, P02, P03]
+    total_visual_density: 18
+    claim_ids: [C001]
+supplementary_panels: []
+upgrade_candidates: []
+actions: []
+scores: {}
+hard_gates:
+  pass: null
+  failures: []

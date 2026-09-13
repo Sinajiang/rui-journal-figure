@@ -1,0 +1,59 @@
+domain_id: clinical_cohort
+display_name: Clinical observational cohort / cross-sectional association
+keywords:
+- cohort
+- cross-sectional
+- case-control
+- participants
+- patients
+- association
+- adjusted model
+- regression
+- odds ratio
+- risk ratio
+- mean difference
+core_questions:
+- Who is in the analytic cohort?
+- What is the primary clinical association/effect?
+- What does the participant-level distribution look like?
+- Does adjustment/robustness preserve the result?
+- Is there clinically interpretable validation or subgroup evidence?
+main_figure_archetypes:
+- name: cohort_structure
+  evidence_families:
+  - design
+  - cohort
+- name: primary_effect
+  evidence_families:
+  - primary_effect
+  - participant_level
+- name: adjusted_robustness
+  evidence_families:
+  - adjusted
+  - robustness
+- name: clinical_context
+  evidence_families:
+  - subgroup
+  - validation
+  optional: true
+preferred_chart_types:
+- dot_box
+- effect_plot
+- scatter
+- paired_dot
+- lollipop
+supplementary_preferred:
+- table1_like_details
+- exploratory_subgroups
+- all_univariable_models
+risk_flags:
+- table1_as_figure
+- univariable_forest_overload
+- exploratory_subgroup_grid
+- causal_language_without_design
+benchmark_terms:
+- clinical cohort
+- observational study
+- adjusted association
+- participant-level
+- sensitivity analysis

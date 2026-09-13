@@ -1,0 +1,10 @@
+figure: 1
+panels:
+  - panel_id: P01
+    contribution_score: null
+    visual_weight_class: PROVENANCE
+    normalized_area_share: null
+    layout_priority: null
+    rationale: ""
+layout_strategy: balanced_grid
+review_flags: []

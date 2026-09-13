@@ -1,0 +1,43 @@
+project:
+  title: Synthetic
+  target_journal: Headache
+  scientific_authority: v1
+  manuscript_authority: m1
+claims:
+  C001:
+    priority: 10
+    must_cover_main: true
+  C002:
+    priority: 8
+    must_cover_main: false
+  C003:
+    priority: 9
+    must_cover_main: true
+  C004:
+    priority: 2
+    must_cover_main: false
+constraints:
+  figure_count_min: 3
+  figure_count_max: 5
+  max_panels_per_figure: 4
+  max_visual_density_per_figure: 24
+  redundancy_threshold: 0.7
+  allow_structurally_adaptable: true
+  minimum_main_claim_coverage: 0.85
+benchmark_prior:
+  preferred_main_figure_count: 4
+  preferred_panel_count_range:
+  - 2
+  - 4
+  preferred_schematic_fraction_range:
+  - 0.1
+  - 0.3
+  preferred_evidence_sequence:
+  - design
+  - anchor
+  - participant
+  - robustness
+  - external_context
+journal_constraints:
+  max_main_displays: 5
+panel_inventory_tsv: panels.tsv

@@ -1,0 +1,16 @@
+figure_id: Figure_2
+font_family: DejaVu Sans
+base_font_size_pt: 6.5
+panel_label_size_pt: 8
+panel_label_case: upper
+line_width_pt: 0.8
+semantic_colors:
+  group_a: '#4C78A8'
+  group_b: '#E17C35'
+  positive: '#4C78A8'
+  negative: '#E17C35'
+  neutral: '#8A8A8A'
+marker_semantics:
+  filled: significant
+  open: non_significant
+exceptions: []

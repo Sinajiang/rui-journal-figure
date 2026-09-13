@@ -1,0 +1,31 @@
+project:
+  title: Synthetic study
+  target_journal: Headache
+  article_type: Research Article
+  scientific_authority: v1
+  manuscript_authority: m1
+concepts:
+  disease_or_topic:
+  - vestibular migraine
+  study_design:
+  - participant-level reanalysis
+  modality:
+  - PBMC transcriptomics
+  unit_of_analysis:
+  - participant
+  primary_estimand_or_outcome:
+  - VM versus migraine
+  key_methods:
+  - pseudobulk
+  desired_figure_roles:
+  - robustness
+  - external validation
+search_policy:
+  preferred_years_back: 5
+  allow_older_field_defining: true
+  target_journal_first: true
+  minimum_selected_benchmarks: 5
+  maximum_selected_benchmarks: 10
+  saturation_rounds_without_new_grammar: 2
+  prefer_primary_research: true
+  require_provenance: true

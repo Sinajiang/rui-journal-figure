@@ -1,0 +1,9 @@
+{
+  "figures": [{
+    "figure": 1,
+    "panels": [
+      {"panel_id":"P1","tier":"ANCHOR","max_annotation_lines":3,"max_legend_items":5},
+      {"panel_id":"P2","tier":"SUPPORT","max_annotation_lines":2,"max_legend_items":4}
+    ]
+  }]
+}

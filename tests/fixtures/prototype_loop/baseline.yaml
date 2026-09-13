@@ -1,0 +1,22 @@
+baseline_id: B0
+accepted_date: '2026-09-13'
+scientific_authority: v1
+journal_profile: test
+architecture_score: 8.5
+visual_score: 8.0
+figure_count: 3
+panel_structure:
+  '1':
+  - P1
+  - P2
+  '2':
+  - P3
+  '3':
+  - P4
+hard_gates_pass: true
+accepted_visual_character:
+  anchor_visibility: 9
+  whitespace_balance: 8
+  density_balance: 8
+  schematic_fraction: 0.25
+notes: []

@@ -1,0 +1,4 @@
+gene	logFC	low	high	fdr	set
+A	0.5	0.2	0.8	0.01	primary
+B	-0.3	-0.6	0.0	0.20	primary
+C	0.1	-0.1	0.3	0.50	secondary

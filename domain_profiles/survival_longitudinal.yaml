@@ -1,0 +1,63 @@
+domain_id: survival_longitudinal
+display_name: Survival / longitudinal / competing-risk analysis
+keywords:
+- survival
+- time-to-event
+- hazard ratio
+- Cox
+- competing risk
+- Fine-Gray
+- cumulative incidence
+- longitudinal
+- follow-up
+- incident
+- trajectory
+core_questions:
+- What is the time origin, risk set, and follow-up structure?
+- What is the event/cumulative-incidence pattern?
+- What is the adjusted effect estimate?
+- How robust is the estimand to competing-risk/sensitivity choices?
+- How do repeated or longitudinal measures evolve if relevant?
+main_figure_archetypes:
+- name: riskset_design
+  evidence_families:
+  - design
+  - risk_set
+- name: time_to_event_pattern
+  evidence_families:
+  - survival_curve
+  - cumulative_incidence
+- name: adjusted_effect
+  evidence_families:
+  - primary_effect
+  - adjusted
+- name: competing_risk_robustness
+  evidence_families:
+  - robustness
+  - competing_risk
+- name: longitudinal_pattern
+  evidence_families:
+  - trajectory
+  optional: true
+preferred_chart_types:
+- survival_curve
+- cumulative_incidence
+- effect_plot
+- trajectory
+- lollipop
+supplementary_preferred:
+- proportional_hazards_diagnostics
+- alternate_time_scales
+- secondary_endpoints
+risk_flags:
+- km_for_wrong_estimand
+- mixed_landmark_periods
+- spaghetti_without_inference
+- death_effect_without_governance
+benchmark_terms:
+- survival analysis
+- competing risk
+- cumulative incidence
+- longitudinal
+- hazard ratio
+- sensitivity

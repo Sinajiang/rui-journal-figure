@@ -1,0 +1,72 @@
+figure:
+  id: Figure_1
+  scientific_authority: v1
+  manuscript_authority: m1
+  width_mm: 180
+  height_mm: 120
+  tiff_dpi: 300
+  background: white
+  panel_label_size_pt: 8
+  base_font_size_pt: 6.5
+style:
+  font_family: DejaVu Sans
+  semantic_colors:
+    positive: '#4C78A8'
+panels:
+- panel_id: P1
+  panel_letter: A
+  role: anchor
+  chart_type: workflow
+  source:
+    path: null
+  mapping:
+    labels:
+    - Input
+    - Analysis
+    - Result
+  filters: []
+  layout:
+    row: 0
+    col: 0
+    rowspan: 1
+    colspan: 1
+  title: ''
+  legend: false
+- panel_id: P2
+  panel_letter: B
+  role: participant
+  chart_type: workflow
+  source:
+    path: null
+  mapping:
+    labels:
+    - A
+    - B
+    - C
+  filters: []
+  layout:
+    row: 0
+    col: 1
+    rowspan: 1
+    colspan: 1
+  title: ''
+  legend: false
+- panel_id: P3
+  panel_letter: C
+  role: robustness
+  chart_type: workflow
+  source:
+    path: null
+  mapping:
+    labels:
+    - X
+    - Y
+    - Z
+  filters: []
+  layout:
+    row: 1
+    col: 0
+    rowspan: 1
+    colspan: 2
+  title: ''
+  legend: false

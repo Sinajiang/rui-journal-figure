@@ -1,0 +1,22 @@
+corpus: {n_figures: null, benchmark_ids: []}
+topology: {dominant: "", frequencies: {}}
+panel_count: {median: null, q1: null, q3: null}
+anchor_area_share: {median: null, q1: null, q3: null}
+workflow_area_share: {median: null, q1: null, q3: null}
+white_space_fraction: {median: null, q1: null, q3: null}
+legend_strategy: {dominant: "", frequencies: {}}
+direct_label_fraction: {median: null, q1: null, q3: null}
+text_density: {dominant: "", frequencies: {}}
+role_area_priors: {}
+
+annotation_statistics:
+  effect_size: {direct_rate: null, legend_rate: null}
+  ci: {direct_rate: null, legend_rate: null}
+  p_value: {direct_rate: null, legend_rate: null}
+  adjusted_p: {direct_rate: null, legend_rate: null}
+  fdr: {direct_rate: null, legend_rate: null}
+  q_value: {direct_rate: null, legend_rate: null}
+  n: {direct_rate: null, legend_rate: null}
+  direction: {direct_rate: null, legend_rate: null}
+significance_style: {dominant: "", frequencies: {}}
+legend_statistical_density: {median: null, q1: null, q3: null}

@@ -1,0 +1,5 @@
+gene	dataset	status
+A	D1	gene
+A	D2	composite
+B	D1	missing
+B	D2	opposite

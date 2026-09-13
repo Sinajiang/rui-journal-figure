@@ -1,0 +1,32 @@
+project:
+  id: ''
+  title: ''
+  target_journal: ''
+  article_type: ''
+  scientific_authority: ''
+  manuscript_authority: ''
+inputs:
+  manuscript: ''
+  source_data: []
+  current_figures: []
+  current_legends: []
+  journal_profile: ''
+  benchmark_candidates: ''
+  evidence_graph: ''
+  panel_inventory: ''
+  optimizer_input: ''
+  sentinel_contracts: []
+  accepted_baseline: ''
+  domain_selection: ''
+  benchmark_layout_annotations: ''
+  annotation_candidate_inventory: ''
+workflow:
+  work_dir: TOP_JOURNAL_FIGURE_WORKFLOW
+  allow_bundled_journal_profile: true
+  bundled_profile_max_age_days: 180
+  benchmark_minimum: 5
+  benchmark_maximum: 10
+  require_manual_prototype_review: true
+  require_manual_final_figure_review: true
+  require_manual_contact_sheet_review: true
+  fail_closed: true

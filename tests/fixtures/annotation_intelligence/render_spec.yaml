@@ -1,0 +1,13 @@
+figure:
+  id: Figure_1
+  width_mm: 180
+  height_mm: 120
+panels:
+  - panel_id: P1
+    chart_type: effect_plot
+    source: {path: data.tsv}
+    mapping: {label: term, estimate: beta}
+  - panel_id: P2
+    chart_type: scatter
+    source: {path: data.tsv}
+    mapping: {x: x, y: y}

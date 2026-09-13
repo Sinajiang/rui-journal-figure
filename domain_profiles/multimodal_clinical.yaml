@@ -1,0 +1,68 @@
+domain_id: multimodal_clinical
+display_name: Multimodal clinical phenotyping / multiview study
+keywords:
+- multimodal
+- multiview
+- VNG
+- gait
+- oculomotor
+- MRI
+- cognition
+- multiple modalities
+- sensor
+- phenotyping
+- multivariate
+core_questions:
+- What modalities and constructs define the study?
+- What are the modality-specific primary associations?
+- What cross-modal structure is present?
+- Which modalities contribute unique versus shared information?
+- Is there an external/mechanistic anchor?
+main_figure_archetypes:
+- name: multimodal_design
+  evidence_families:
+  - design
+  - modality_map
+- name: modality_specific_primary
+  evidence_families:
+  - primary_effect
+  - modality_specific
+- name: cross_modal_structure
+  evidence_families:
+  - cross_modal
+  - multiview
+- name: contribution_robustness
+  evidence_families:
+  - contribution
+  - robustness
+- name: external_anchor
+  evidence_families:
+  - validation
+  - mechanism
+  optional: true
+preferred_chart_types:
+- effect_plot
+- dot_box
+- heatmap
+- network
+- contribution_plot
+- evidence_matrix
+- scatter
+supplementary_preferred:
+- all_pairwise_correlations
+- full_sensor_variable_catalog
+- secondary_domains
+- parameter_sweeps
+risk_flags:
+- forced_single_composite
+- correlation_heatmap_as_entire_story
+- modality_with_more_variables_dominates
+- unstructured_indicator_overload
+benchmark_terms:
+- multimodal clinical
+- multiview
+- phenotyping
+- sensor
+- cross-modal
+- multivariate
+- contribution analysis

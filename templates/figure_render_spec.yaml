@@ -1,0 +1,41 @@
+figure:
+  id: Figure_1
+  scientific_authority: ""
+  manuscript_authority: ""
+  width_mm: 180
+  height_mm: 120
+  tiff_dpi: 600
+  background: white
+  panel_label_size_pt: 8
+  base_font_size_pt: 6.5
+
+style:
+  font_family: "DejaVu Sans"
+  semantic_colors:
+    group_a: "#4C78A8"
+    group_b: "#E17C35"
+    positive: "#4C78A8"
+    negative: "#E17C35"
+    neutral: "#8A8A8A"
+    context: "#59A14F"
+    missing: "#C44E52"
+
+panels:
+  - panel_id: P01
+    panel_letter: A
+    role: workflow
+    chart_type: workflow
+    source:
+      path: null
+    mapping: {}
+    filters: []
+    transform: none
+    layout:
+      row: 0
+      col: 0
+      rowspan: 1
+      colspan: 1
+    title: ""
+    legend: false
+
+sentinels: []

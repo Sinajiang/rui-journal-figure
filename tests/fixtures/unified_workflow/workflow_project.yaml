@@ -1,0 +1,31 @@
+project:
+  id: SYNTH
+  title: Synthetic
+  target_journal: Headache
+  article_type: Research Article
+  scientific_authority: v1
+  manuscript_authority: m1
+inputs:
+  manuscript: manuscript.txt
+  source_data:
+  - source.tsv
+  current_figures: []
+  current_legends: []
+  journal_profile: ''
+  benchmark_candidates: ''
+  evidence_graph: ''
+  panel_inventory: ''
+  optimizer_input: ''
+  sentinel_contracts: []
+  accepted_baseline: ''
+  domain_selection: ''
+workflow:
+  work_dir: WORK
+  allow_bundled_journal_profile: true
+  bundled_profile_max_age_days: 180
+  benchmark_minimum: 5
+  benchmark_maximum: 10
+  require_manual_prototype_review: true
+  require_manual_final_figure_review: true
+  require_manual_contact_sheet_review: true
+  fail_closed: true

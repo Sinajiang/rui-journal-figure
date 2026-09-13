@@ -1,0 +1,16 @@
+figure_id: synthetic_card
+page:
+  width_mm: 152.4
+  height_mm: 76.2
+panels:
+  A:
+    rect: [0.05, 0.05, 0.90, 0.90]
+    zones:
+      data: [0.08, 0.10, 0.84, 0.78]
+cards:
+  - name: card_1
+    rect: [0.10, 0.25, 0.35, 0.45]
+    text_must_remain_inside: true
+forbidden_regions: []
+geometry_tolerances:
+  boundary_margin_pt: 0.4

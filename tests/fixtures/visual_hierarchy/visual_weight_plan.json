@@ -1,0 +1,38 @@
+{
+  "figures": [
+    {
+      "figure": 1,
+      "theme": "primary",
+      "layout_strategy": "dominant_anchor",
+      "panels": [
+        {
+          "panel_id": "P1",
+          "contribution_score": 9.6,
+          "visual_weight_class": "ANCHOR",
+          "visual_density": 6,
+          "normalized_area_share": 0.42,
+          "layout_priority": 1,
+          "role": "anchor"
+        },
+        {
+          "panel_id": "P2",
+          "contribution_score": 7.8,
+          "visual_weight_class": "MAJOR_SUPPORT",
+          "visual_density": 5,
+          "normalized_area_share": 0.3,
+          "layout_priority": 2,
+          "role": "participant"
+        },
+        {
+          "panel_id": "P3",
+          "contribution_score": 6.8,
+          "visual_weight_class": "SUPPORT",
+          "visual_density": 7,
+          "normalized_area_share": 0.28,
+          "layout_priority": 3,
+          "role": "robustness"
+        }
+      ]
+    }
+  ]
+}

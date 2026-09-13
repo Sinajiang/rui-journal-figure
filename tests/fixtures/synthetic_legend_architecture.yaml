@@ -1,0 +1,27 @@
+figures:
+  1:
+    panels:
+    - A
+    - C
+    legend_order:
+    - A
+    - C
+  2:
+    panels:
+    - A
+    - B
+    legend_order:
+    - A
+    - B
+  3:
+    panels:
+    - B
+    legend_order:
+    - B
+  4:
+    panels:
+    - B
+    - C
+    legend_order:
+    - B
+    - C

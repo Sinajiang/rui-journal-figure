@@ -1,0 +1,32 @@
+benchmark_id: ""
+citation:
+  title: ""
+  authors: ""
+  journal: ""
+  year: null
+  doi: ""
+  url: ""
+retrieval:
+  date: ""
+  search_round: null
+  search_query: ""
+verification_status: VERIFIED
+selection_reason:
+  scientific_similarity: ""
+  method_similarity: ""
+  modality_similarity: ""
+  journal_relevance: ""
+figure_grammar:
+  figure_level_questions: []
+  anchor_panel_patterns: []
+  evidence_sequence_patterns: []
+  chart_types: []
+  legend_strategy: []
+  information_density: ""
+  main_vs_supplement: ""
+transferable_principles: []
+non_transferable_features: []
+current_study_mapping:
+  - pattern: ""
+    status: DIRECTLY_AVAILABLE
+    adaptation: ""

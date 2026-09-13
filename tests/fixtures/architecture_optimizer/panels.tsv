@@ -1,0 +1,10 @@
+panel_id	theme	claim_ids	source_ids	role	evidence_family	chart_type	availability	main_eligible	must_main	priority	contribution_score	benchmark_support_score	source_traceability_score	visual_density	narrative_order	current_location	redundancy_group	notes
+P01	design	C001	S01	workflow	design	schematic	DIRECTLY_AVAILABLE	true	true	9	8	9	10	4	1	main	design	
+P02	primary	C001	S02	anchor	primary_effect	effect_plot	DIRECTLY_AVAILABLE	true	true	10	10	9	10	6	2	main	primary	
+P03	primary	C001	S02	participant	participant_level	dot_box	DIRECTLY_AVAILABLE	true	false	9	9	8	10	6	3	main	participant	
+P04	robustness	C002	S03	robustness	robustness	lollipop	DIRECTLY_AVAILABLE	true	false	8	8	9	10	6	4	main	robustness	
+P05	robustness	C002	S03	robustness	robustness	lollipop	DIRECTLY_AVAILABLE	true	false	6	5	8	10	5	5	main	robustness	redundant sensitivity
+P06	external	C003	S04	external_context	external_context	evidence_matrix	DIRECTLY_AVAILABLE	true	true	9	9	10	10	7	6	main	external	
+P07	external	C003	S05	boundary	boundary	annotation_matrix	DIRECTLY_AVAILABLE	true	false	7	7	8	10	5	7	supp	boundary	
+P08	mechanism	C004	S06	mechanism	mechanism	network	OPTIONAL_NEW_ANALYSIS	true	false	8	9	9	0	8	8	unassigned	mechanism	not available
+P09	misc	C004	S07	context	context	bar	NOT_APPLICABLE	true	false	4	3	4	0	4	9	unassigned	misc	

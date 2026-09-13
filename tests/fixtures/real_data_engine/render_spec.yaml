@@ -1,0 +1,101 @@
+figure:
+  id: Figure_1
+  scientific_authority: vtest
+  manuscript_authority: mtest
+  width_mm: 180
+  height_mm: 110
+  tiff_dpi: 300
+  background: white
+  panel_label_size_pt: 8
+  base_font_size_pt: 6.5
+style:
+  font_family: DejaVu Sans
+  semantic_colors:
+    positive: '#4C78A8'
+    negative: '#E17C35'
+    context: '#59A14F'
+    missing: '#C44E52'
+panels:
+- panel_id: P1
+  panel_letter: A
+  role: workflow
+  chart_type: workflow
+  source:
+    path: null
+  mapping:
+    labels:
+    - Cohort
+    - Analysis
+    - Result
+  filters: []
+  layout:
+    row: 0
+    col: 0
+    rowspan: 1
+    colspan: 1
+  title: ''
+  legend: false
+- panel_id: P2
+  panel_letter: B
+  role: anchor
+  chart_type: effect_plot
+  source:
+    path: effects.tsv
+  mapping:
+    label: gene
+    estimate: logFC
+    lower: low
+    upper: high
+    reference: 0
+    xlabel: logFC
+  filters:
+  - column: set
+    op: ==
+    value: primary
+  layout:
+    row: 0
+    col: 1
+    rowspan: 1
+    colspan: 1
+  title: ''
+  legend: false
+- panel_id: P3
+  panel_letter: C
+  role: participant
+  chart_type: dot_box
+  source:
+    path: dots.tsv
+  mapping:
+    group: group
+    value: value
+    order:
+    - MI
+    - VM
+    ylabel: Expression
+  filters: []
+  layout:
+    row: 1
+    col: 0
+    rowspan: 1
+    colspan: 1
+  title: ''
+  legend: false
+- panel_id: P4
+  panel_letter: D
+  role: external_context
+  chart_type: evidence_matrix
+  source:
+    path: matrix.tsv
+  mapping:
+    row: gene
+    column: dataset
+    status: status
+  filters: []
+  layout:
+    row: 1
+    col: 1
+    rowspan: 1
+    colspan: 1
+  title: ''
+  legend: false
+sentinels: []

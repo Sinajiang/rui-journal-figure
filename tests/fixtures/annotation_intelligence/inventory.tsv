@@ -1,0 +1,10 @@
+figure_id	panel_id	annotation_id	claim_id	statistic_type	label	value	claim_importance	statistical_necessity	panel_tier	primary_test	multiplicity_applies	multiplicity_adjusted	uncertainty_encoded	estimate_encoded	direction_encoded	n_varies	repeated_across_panels	exact_value_required	redundancy_group	benchmark_direct_rate	benchmark_legend_rate	notes
+Figure_1	P1	A_EFFECT	C1	effect_size	Effect	0.42	5	required	ANCHOR	true	true	false	false	false	false	false	false	false	G1	0.80	0.20	
+Figure_1	P1	A_CI	C1	ci	95% CI	0.31	5	required	ANCHOR	true	true	false	true	false	false	false	false	false	G1	0.10	0.80	CI encoded by whiskers
+Figure_1	P1	A_P	C1	p_value		0.0004	5	high	ANCHOR	true	true	false	false	false	false	false	false	false	G1	0.20	0.50	
+Figure_1	P1	A_FDR	C1	fdr		0.006	5	high	ANCHOR	true	true	true	false	false	false	false	false	false	G1	0.75	0.50	
+Figure_1	P1	A_N	C1	n		81	4	moderate	ANCHOR	true	false	false	false	false	false	false	true	false	N_ALL	0.05	0.90	
+Figure_1	P1	A_DIR	C1	direction	Higher in group A		4	low	ANCHOR	false	false	false	false	false	true	false	false	false	DIR1	0.10	0.10	
+Figure_1	P1	A_METHOD	C1	method	Error bars indicate 95% CI		3	moderate	ANCHOR	false	false	false	false	false	false	false	false	false	M1	0.00	0.90	
+Figure_1	P2	B_N	C2	n		81	3	moderate	SUPPORT	false	false	false	false	false	false	false	true	false	N_ALL	0.05	0.90	
+Figure_1	P2	B_DIR	C2	direction	Positive association		3	moderate	SUPPORT	false	false	false	false	false	false	false	false	false	DIR2	0.60	0.20	

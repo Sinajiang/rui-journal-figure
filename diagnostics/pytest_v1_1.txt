@@ -1,0 +1,154 @@
+[31mF[0m[31mF[0m[31m                                                                       [100%][0m
+=================================== FAILURES ===================================
+[31m[1m_________________ test_clean_has_no_blocking_text_text_overlap _________________[0m
+
+    [0m[94mdef[39;49;00m[90m [39;49;00m[92mtest_clean_has_no_blocking_text_text_overlap[39;49;00m():[90m[39;49;00m
+        r=run_audit(FIX/[33m"[39;49;00m[33mclean.pdf[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
+>       [94massert[39;49;00m r[[33m"[39;49;00m[33mblocking_count[39;49;00m[33m"[39;49;00m] == [94m0[39;49;00m[90m[39;49;00m
+[1m[31mE       assert 1 == 0[0m
+
+[1m[31m/mnt/data/top-journal-figure-pro-v1.1.0/tests/test_geometry_audit.py[0m:20: AssertionError
+---------------------------- Captured stderr setup -----------------------------
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 720, in _warm_feature_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 704, in _warm_collaboration_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/generated/interface/models.py", line 32317, in hydrate_crdt_from_proto
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/remote.py", line 749, in __call__
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/client.py", line 150, in call
+artifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.
+----------------------------- Captured stderr call -----------------------------
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 720, in _warm_feature_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 704, in _warm_collaboration_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/generated/interface/models.py", line 32317, in hydrate_crdt_from_proto
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/remote.py", line 749, in __call__
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/client.py", line 150, in call
+artifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.
+[31m[1m___________________________ test_overlap_is_detected ___________________________[0m
+
+    [0m[94mdef[39;49;00m[90m [39;49;00m[92mtest_overlap_is_detected[39;49;00m():[90m[39;49;00m
+>       r=run_audit(FIX/[33m"[39;49;00m[33mtext_overlap.pdf[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+
+[1m[31m/mnt/data/top-journal-figure-pro-v1.1.0/tests/test_geometry_audit.py[0m:23: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31m/mnt/data/top-journal-figure-pro-v1.1.0/tests/test_geometry_audit.py[0m:11: in run_audit
+    [0mout=subprocess.check_output([[90m[39;49;00m
+[1m[31m/usr/lib/python3.13/subprocess.py[0m:472: in check_output
+    [0m[94mreturn[39;49;00m run(*popenargs, stdout=PIPE, timeout=timeout, check=[94mTrue[39;49;00m,[90m[39;49;00m
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+input = None, capture_output = False, timeout = None, check = True
+popenargs = (['/opt/pyvenv/bin/python', '/mnt/data/top-journal-figure-pro-v1.1.0/scripts/audit_pdf_geometry.py', '/mnt/data/top-journal-figure-pro-v1.1.0/tests/fixtures/text_overlap.pdf'],)
+kwargs = {'stdout': -1, 'text': True}
+process = <Popen: returncode: 1 args: ['/opt/pyvenv/bin/python', '/mnt/data/top-journa...>
+stdout = '{\n  "file": "/mnt/data/top-journal-figure-pro-v1.1.0/tests/fixtures/text_overlap.pdf",\n  "pages": [\n    {\n      "... 0.0, 0.0)",\n            "color": "None",\n            "width": null,\n            "items": 8\n          }\n        }'
+stderr = None, retcode = 1
+
+    [0m[94mdef[39;49;00m[90m [39;49;00m[92mrun[39;49;00m(*popenargs,[90m[39;49;00m
+            [96minput[39;49;00m=[94mNone[39;49;00m, capture_output=[94mFalse[39;49;00m, timeout=[94mNone[39;49;00m, check=[94mFalse[39;49;00m, **kwargs):[90m[39;49;00m
+    [90m    [39;49;00m[33m"""Run command with arguments and return a CompletedProcess instance.[39;49;00m
+    [33m[39;49;00m
+    [33m    The returned instance will have attributes args, returncode, stdout and[39;49;00m
+    [33m    stderr. By default, stdout and stderr are not captured, and those attributes[39;49;00m
+    [33m    will be None. Pass stdout=PIPE and/or stderr=PIPE in order to capture them,[39;49;00m
+    [33m    or pass capture_output=True to capture both.[39;49;00m
+    [33m[39;49;00m
+    [33m    If check is True and the exit code was non-zero, it raises a[39;49;00m
+    [33m    CalledProcessError. The CalledProcessError object will have the return code[39;49;00m
+    [33m    in the returncode attribute, and output & stderr attributes if those streams[39;49;00m
+    [33m    were captured.[39;49;00m
+    [33m[39;49;00m
+    [33m    If timeout (seconds) is given and the process takes too long,[39;49;00m
+    [33m     a TimeoutExpired exception will be raised.[39;49;00m
+    [33m[39;49;00m
+    [33m    There is an optional argument "input", allowing you to[39;49;00m
+    [33m    pass bytes or a string to the subprocess's stdin.  If you use this argument[39;49;00m
+    [33m    you may not also use the Popen constructor's "stdin" argument, as[39;49;00m
+    [33m    it will be used internally.[39;49;00m
+    [33m[39;49;00m
+    [33m    By default, all communication is in bytes, and therefore any "input" should[39;49;00m
+    [33m    be bytes, and the stdout and stderr will be bytes. If in text mode, any[39;49;00m
+    [33m    "input" should be a string, and stdout and stderr will be strings decoded[39;49;00m
+    [33m    according to locale encoding, or by "encoding" if set. Text mode is[39;49;00m
+    [33m    triggered by setting any of text, encoding, errors or universal_newlines.[39;49;00m
+    [33m[39;49;00m
+    [33m    The other arguments are the same as for the Popen constructor.[39;49;00m
+    [33m    """[39;49;00m[90m[39;49;00m
+        [94mif[39;49;00m [96minput[39;49;00m [95mis[39;49;00m [95mnot[39;49;00m [94mNone[39;49;00m:[90m[39;49;00m
+            [94mif[39;49;00m kwargs.get([33m'[39;49;00m[33mstdin[39;49;00m[33m'[39;49;00m) [95mis[39;49;00m [95mnot[39;49;00m [94mNone[39;49;00m:[90m[39;49;00m
+                [94mraise[39;49;00m [96mValueError[39;49;00m([33m'[39;49;00m[33mstdin and input arguments may not both be used.[39;49;00m[33m'[39;49;00m)[90m[39;49;00m
+            kwargs[[33m'[39;49;00m[33mstdin[39;49;00m[33m'[39;49;00m] = PIPE[90m[39;49;00m
+    [90m[39;49;00m
+        [94mif[39;49;00m capture_output:[90m[39;49;00m
+            [94mif[39;49;00m kwargs.get([33m'[39;49;00m[33mstdout[39;49;00m[33m'[39;49;00m) [95mis[39;49;00m [95mnot[39;49;00m [94mNone[39;49;00m [95mor[39;49;00m kwargs.get([33m'[39;49;00m[33mstderr[39;49;00m[33m'[39;49;00m) [95mis[39;49;00m [95mnot[39;49;00m [94mNone[39;49;00m:[90m[39;49;00m
+                [94mraise[39;49;00m [96mValueError[39;49;00m([33m'[39;49;00m[33mstdout and stderr arguments may not be used [39;49;00m[33m'[39;49;00m[90m[39;49;00m
+                                 [33m'[39;49;00m[33mwith capture_output.[39;49;00m[33m'[39;49;00m)[90m[39;49;00m
+            kwargs[[33m'[39;49;00m[33mstdout[39;49;00m[33m'[39;49;00m] = PIPE[90m[39;49;00m
+            kwargs[[33m'[39;49;00m[33mstderr[39;49;00m[33m'[39;49;00m] = PIPE[90m[39;49;00m
+    [90m[39;49;00m
+        [94mwith[39;49;00m Popen(*popenargs, **kwargs) [94mas[39;49;00m process:[90m[39;49;00m
+            [94mtry[39;49;00m:[90m[39;49;00m
+                stdout, stderr = process.communicate([96minput[39;49;00m, timeout=timeout)[90m[39;49;00m
+            [94mexcept[39;49;00m TimeoutExpired [94mas[39;49;00m exc:[90m[39;49;00m
+                process.kill()[90m[39;49;00m
+                [94mif[39;49;00m _mswindows:[90m[39;49;00m
+                    [90m# Windows accumulates the output in a single blocking[39;49;00m[90m[39;49;00m
+                    [90m# read() call run on child threads, with the timeout[39;49;00m[90m[39;49;00m
+                    [90m# being done in a join() on those threads.  communicate()[39;49;00m[90m[39;49;00m
+                    [90m# _after_ kill() is required to collect that and add it[39;49;00m[90m[39;49;00m
+                    [90m# to the exception.[39;49;00m[90m[39;49;00m
+                    exc.stdout, exc.stderr = process.communicate()[90m[39;49;00m
+                [94melse[39;49;00m:[90m[39;49;00m
+                    [90m# POSIX _communicate already populated the output so[39;49;00m[90m[39;49;00m
+                    [90m# far into the TimeoutExpired exception.[39;49;00m[90m[39;49;00m
+                    process.wait()[90m[39;49;00m
+                [94mraise[39;49;00m[90m[39;49;00m
+            [94mexcept[39;49;00m:  [90m# Including KeyboardInterrupt, communicate handled that.[39;49;00m[90m[39;49;00m
+                process.kill()[90m[39;49;00m
+                [90m# We don't call process.wait() as .__exit__ does that for us.[39;49;00m[90m[39;49;00m
+                [94mraise[39;49;00m[90m[39;49;00m
+            retcode = process.poll()[90m[39;49;00m
+            [94mif[39;49;00m check [95mand[39;49;00m retcode:[90m[39;49;00m
+>               [94mraise[39;49;00m CalledProcessError(retcode, process.args,[90m[39;49;00m
+                                         output=stdout, stderr=stderr)[90m[39;49;00m
+[1m[31mE               subprocess.CalledProcessError: Command '['/opt/pyvenv/bin/python', '/mnt/data/top-journal-figure-pro-v1.1.0/scripts/audit_pdf_geometry.py', '/mnt/data/top-journal-figure-pro-v1.1.0/tests/fixtures/text_overlap.pdf']' returned non-zero exit status 1.[0m
+
+[1m[31m/usr/lib/python3.13/subprocess.py[0m:577: CalledProcessError
+----------------------------- Captured stderr call -----------------------------
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 720, in _warm_feature_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 704, in _warm_collaboration_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/generated/interface/models.py", line 32317, in hydrate_crdt_from_proto
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/remote.py", line 749, in __call__
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/client.py", line 150, in call
+artifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.
+Traceback (most recent call last):
+  File [35m"/mnt/data/top-journal-figure-pro-v1.1.0/scripts/audit_pdf_geometry.py"[0m, line [35m106[0m, in [35m<module>[0m
+    [31mprint[0m[1;31m(txt)[0m
+    [31m~~~~~[0m[1;31m^^^^^[0m
+[1;35mBlockingIOError[0m: [35m[Errno 11] write could not complete without blocking[0m
+[36m[1m=========================== short test summary info ============================[0m
+[31mFAILED[0m ../../mnt/data/top-journal-figure-pro-v1.1.0/tests/test_geometry_audit.py::[1mtest_clean_has_no_blocking_text_text_overlap[0m - assert 1 == 0
+[31mFAILED[0m ../../mnt/data/top-journal-figure-pro-v1.1.0/tests/test_geometry_audit.py::[1mtest_overlap_is_detected[0m - subprocess.CalledProcessError: Command '['/opt/pyvenv/bin/python', '/mnt/data/top-journal-figure-pro-v1.1.0/scripts/audit_pdf_geometry.py', '/mnt/data/top-journal-figure-pro-v1.1.0/tests/fixtures/text_overlap.pdf']' returned non-zero exit status 1.
+[31m[31m[1m2 failed[0m[31m in 15.01s[0m[0m
+
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 720, in _warm_feature_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 704, in _warm_collaboration_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/generated/interface/models.py", line 32317, in hydrate_crdt_from_proto
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/remote.py", line 749, in __call__
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/client.py", line 150, in call
+artifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.

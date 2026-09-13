@@ -1,0 +1,8 @@
+primary_domain: ""
+secondary_domains: []
+confidence: null
+selection_basis:
+  manuscript_keywords: []
+  source_columns: []
+  user_declared: false
+manual_confirmation_required: true

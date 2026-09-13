@@ -1,0 +1,5 @@
+round	query_family	query	candidates_found	eligible_added	new_high_ranked_added	new_grammar_patterns	stop_reason
+1	target_scientific	q1	8	3	2	2	
+2	target_method	q2	6	2	1	1	
+3	peer_scientific	q3	5	1	0	0	
+4	field_defining	q4	4	0	0	0	saturation

@@ -1,0 +1,52 @@
+
+==================================== ERRORS ====================================
+[31m[1m__________________ ERROR collecting test_real_data_engine.py ___________________[0m
+[31m[1m[31m/opt/pyvenv/lib/python3.13/site-packages/_pytest/python.py[0m:507: in importtestmodule
+    [0mmod = import_path([90m[39;49;00m
+[1m[31m/opt/pyvenv/lib/python3.13/site-packages/_pytest/pathlib.py[0m:587: in import_path
+    [0mimportlib.import_module(module_name)[90m[39;49;00m
+[1m[31m/usr/lib/python3.13/importlib/__init__.py[0m:88: in import_module
+    [0m[94mreturn[39;49;00m _bootstrap._gcd_import(name[level:], package, level)[90m[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:1387: in _gcd_import
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:1360: in _find_and_load
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:1331: in _find_and_load_unlocked
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:935: in _load_unlocked
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m/opt/pyvenv/lib/python3.13/site-packages/_pytest/assertion/rewrite.py[0m:197: in exec_module
+    [0mexec(co, module.[91m__dict__[39;49;00m)[90m[39;49;00m
+[1m[31m/mnt/data/top-journal-figure-pro-v1.8.0/tests/test_real_data_engine.py[0m:8: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96mvalidate_frozen_sentinels[39;49;00m[90m [39;49;00m[94mimport[39;49;00m validate [94mas[39;49;00m validate_sentinels[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:1360: in _find_and_load
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:1331: in _find_and_load_unlocked
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:935: in _load_unlocked
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap_external>[0m:1022: in exec_module
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m/opt/pyvenv/lib/python3.13/site-packages/ddtrace/internal/module.py[0m:291: in get_code
+    [0mcode = _get_code(fullname)[90m[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31mE     File "/mnt/data/top-journal-figure-pro-v1.8.0/scripts/validate_frozen_sentinels.py", line 26[0m
+[1m[31mE       result.update(observed=observed,expected=int(expected),pass=(observed==int(expected)))[0m
+[1m[31mE                                                              ^^^^[0m
+[1m[31mE   SyntaxError: invalid syntax[0m[0m
+[36m[1m=========================== short test summary info ============================[0m
+[31mERROR[0m ../../mnt/data/top-journal-figure-pro-v1.8.0/tests/test_real_data_engine.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+[31m[31m[1m1 error[0m[31m in 0.25s[0m[0m
+
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 720, in _warm_feature_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 704, in _warm_collaboration_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/generated/interface/models.py", line 32317, in hydrate_crdt_from_proto
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/remote.py", line 749, in __call__
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/client.py", line 150, in call
+artifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.

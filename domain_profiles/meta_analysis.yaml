@@ -1,0 +1,61 @@
+domain_id: meta_analysis
+display_name: Systematic review / meta-analysis
+keywords:
+- meta-analysis
+- systematic review
+- PRISMA
+- forest plot
+- heterogeneity
+- I2
+- REML
+- Hartung
+- publication bias
+- funnel plot
+- pooled estimate
+core_questions:
+- How was the evidence corpus assembled?
+- What is the primary pooled estimate?
+- What heterogeneity/influence structure matters?
+- Are subgroup/sensitivity analyses scientifically justified?
+- What is the evidence boundary?
+main_figure_archetypes:
+- name: evidence_flow
+  evidence_families:
+  - prisma
+  - design
+- name: primary_pool
+  evidence_families:
+  - pooled_effect
+- name: heterogeneity_influence
+  evidence_families:
+  - heterogeneity
+  - influence
+- name: subgroup_or_evidence_map
+  evidence_families:
+  - subgroup
+  - evidence_map
+  optional: true
+preferred_chart_types:
+- prisma
+- forest
+- lollipop
+- evidence_map
+- baujat
+- influence
+supplementary_preferred:
+- study_level_diagnostics
+- leave_one_out_all
+- secondary_outcomes
+- funnel_when_underpowered
+risk_flags:
+- forest_overload
+- funnel_with_too_few_studies
+- underpowered_subgroups
+- mixed_etiology_timewindow
+benchmark_terms:
+- meta-analysis
+- systematic review
+- forest plot
+- heterogeneity
+- influence analysis
+- evidence map

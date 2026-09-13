@@ -1,0 +1,25 @@
+figure_id: Figure_1
+figure_width_mm: 180
+figure_height_mm: 120
+font_family: "DejaVu Sans"
+panel_label_size_pt: 8.0
+panels:
+  - panel_id: P01
+    tier: ANCHOR
+    contribution_score: 9.5
+    panel_width_mm: null
+    panel_height_mm: null
+    axis_label_size_pt: null
+    tick_label_size_pt: null
+    annotation_size_pt: null
+    marker_size_pt: null
+    line_width_pt: null
+    max_chars_per_annotation_line: null
+    max_annotation_lines: null
+    max_annotation_chars: null
+    max_x_tick_labels: null
+    max_y_tick_labels: null
+    max_legend_items: null
+    legend_strategy: ""
+    direct_labels_preferred: false
+review_flags: []

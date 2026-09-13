@@ -1,0 +1,11 @@
+{
+  "project_id": "",
+  "run_id": "",
+  "current_state": "INIT",
+  "updated_at": "",
+  "stages": {},
+  "pending_agent_actions": [],
+  "pending_human_reviews": [],
+  "artifacts": {},
+  "blocking": []
+}

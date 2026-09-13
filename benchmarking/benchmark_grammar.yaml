@@ -1,0 +1,49 @@
+benchmark_set:
+  target_journal: ""
+  search_date: ""
+  papers: []
+
+extract:
+  figure_level:
+    - scientific_question
+    - anchor_panel_position
+    - panel_count
+    - schematic_to_quantitative_ratio
+    - dominant_chart_family
+    - whitespace_strategy
+    - information_density
+  panel_level:
+    - role
+    - chart_type
+    - direct_labeling
+    - legend_strategy
+    - uncertainty_display
+    - individual_data_display
+    - annotation_density
+    - effect_size_direct_fraction
+    - effect_size_legend_fraction
+    - ci_numeric_direct_fraction
+    - ci_legend_fraction
+    - pvalue_direct_fraction
+    - pvalue_legend_fraction
+    - adjusted_significance_direct_fraction
+    - adjusted_significance_legend_fraction
+    - n_direct_fraction
+    - n_legend_fraction
+    - direction_direct_fraction
+    - direction_legend_fraction
+    - significance_style
+    - legend_statistical_density
+  visual_system:
+    - palette_size
+    - group_color_consistency
+    - panel_label_style
+    - typography_density
+    - line_weight_character
+  transferable_principles: []
+  non_transferable_features: []
+  do_not_copy:
+    - exact_layout
+    - exact_artwork
+    - proprietary_icons
+    - copyrighted_graphical_elements

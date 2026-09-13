@@ -1,0 +1,6 @@
+Results
+The primary effect is shown in Figure 1C.
+Robustness is summarized in Figure 2A–B.
+The donor-level result is shown in Figure 3B.
+External context is shown in Figure 4B and paired state in Figure 4C.
+Additional checks are shown in Figure S1 and Figure S2 and Table S1.

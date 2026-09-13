@@ -1,0 +1,145 @@
+version: 2.5.1
+placement_priority:
+  - scientific_correctness
+  - statistical_necessity
+  - claim_importance
+  - multiplicity_awareness
+  - uncertainty_interpretability
+  - benchmark_support
+  - final_size_legibility
+  - density_minimization
+
+thresholds:
+  direct_score: 7.0
+  legend_score: 3.5
+  benchmark_strong: 0.65
+  benchmark_moderate: 0.35
+  high_claim_importance: 4.0
+  major_claim_importance: 3.0
+
+statistic_defaults:
+  effect_size:
+    base_direct: 3.0
+    base_legend: 1.0
+    direct_when_anchor: true
+    prefer_over_significance: true
+  ci:
+    base_direct: 2.4
+    base_legend: 1.8
+    direct_if_not_visually_encoded: true
+    suppress_numeric_if_visually_encoded: true
+  adjusted_p:
+    base_direct: 2.0
+    base_legend: 2.0
+    multiplicity_priority: 4
+  fdr:
+    base_direct: 2.2
+    base_legend: 2.0
+    multiplicity_priority: 5
+  q_value:
+    base_direct: 2.2
+    base_legend: 2.0
+    multiplicity_priority: 5
+  p_value:
+    base_direct: 1.0
+    base_legend: 1.6
+    multiplicity_priority: 1
+  n:
+    base_direct: 0.3
+    base_legend: 2.1
+    direct_only_if_interpretive: true
+  direction:
+    base_direct: 0.8
+    base_legend: 0.5
+    suppress_if_visually_encoded: true
+  threshold:
+    base_direct: 0.7
+    base_legend: 1.8
+  descriptive:
+    base_direct: 0.5
+    base_legend: 1.0
+  method:
+    base_direct: -3.0
+    base_legend: 2.5
+
+necessity_weights:
+  required: 4.0
+  high: 3.0
+  moderate: 1.6
+  low: 0.4
+  redundant: -3.0
+
+claim_weights:
+  per_point: 0.75
+  anchor_bonus: 1.8
+  major_support_bonus: 1.0
+  support_bonus: 0.4
+
+benchmark_weights:
+  direct_scale: 1.4
+  legend_scale: 1.1
+
+inferential_unit_scope:
+  raw_p_suppression_key: [figure_id, panel_id, inferential_unit]
+  fallback_to_redundancy_group: true
+  never_cross_panel_for_adjusted_significance: true
+
+redundancy:
+  suppress_repeated_raw_p_when_adjusted_exists: true
+  suppress_direction_if_encoded: true
+  suppress_numeric_ci_if_uncertainty_encoded: true
+  move_repeated_n_to_legend: true
+  collapse_repeated_ci_definition: true
+  collapse_repeated_significance_definition: true
+
+precision:
+  p_value:
+    min_decimals: 3
+    scientific_threshold: 0.001
+    small_value_format: "P<0.001"
+    exact_small_values_only_when_required: true
+  adjusted_p:
+    min_decimals: 3
+    scientific_threshold: 0.001
+    small_value_format: "adjusted P<0.001"
+    exact_small_values_only_when_required: true
+  fdr:
+    min_decimals: 3
+    scientific_threshold: 0.001
+    small_value_format: "FDR<0.001"
+    exact_small_values_only_when_required: true
+  q_value:
+    min_decimals: 3
+    scientific_threshold: 0.001
+    small_value_format: "q<0.001"
+    exact_small_values_only_when_required: true
+  effect_size:
+    significant_digits: 2
+    preserve_authorized_metric_label: true
+  ci:
+    significant_digits: 2
+    supports_lower_upper_bounds: true
+    default_interval_level: 95
+  n:
+    decimals: 0
+
+legend_density:
+  max_statistical_clauses_per_panel: 3
+  max_method_clauses_per_panel: 2
+  max_shared_statistical_definitions_per_figure: 2
+  prefer_shared_legend_for_repeated_group_semantics: true
+  prefer_direct_labels_for_series_count_lte: 4
+  no_duplicate_semantic_key: true
+
+hard_rules:
+  - EFFECT_AND_UNCERTAINTY_OUTRANK_SIGNIFICANCE
+  - ADJUSTED_SIGNIFICANCE_OUTRANKS_RAW_P_WHEN_MULTIPLICITY_APPLIES
+  - GRAPHICALLY_ENCODED_CI_SHOULD_NOT_BE_NUMERICALLY_REPEATED_BY_DEFAULT
+  - SAMPLE_SIZE_IS_USUALLY_LEGEND_CONTEXT_NOT_PLOT_ANNOTATION
+  - DIRECTION_TEXT_IS_REMOVED_WHEN_DIRECTION_IS_VISUALLY_OBVIOUS
+  - METHOD_PROSE_BELONGS_IN_LEGEND_NOT_DATA_VIEWPORT
+  - EXACT_VALUES_REQUIRE_CLAIM_OR_REPRODUCIBILITY_JUSTIFICATION
+  - NEVER_CROSS_PANEL_WHEN_MATCHING_RAW_AND_ADJUSTED_SIGNIFICANCE
+  - UNRESOLVED_LEGEND_OVERDENSITY_BLOCKS_PROMOTION
+  - BIND_APPROVED_ANNOTATION_PLAN_TO_REAL_DATA_RENDER_SPEC
+  - NEVER_USE_STARS_AS_THE_ONLY_STATISTICAL_REPORTING_FOR_ANCHOR_CLAIMS

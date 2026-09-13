@@ -1,0 +1,62 @@
+domain_id: transcriptomics_bulk
+display_name: Bulk transcriptomics / pseudobulk molecular contrast
+keywords:
+- transcriptomics
+- rna-seq
+- RNA-seq
+- bulk RNA
+- pseudobulk
+- differential expression
+- limma
+- edgeR
+- DESeq2
+- gene expression
+- PBMC
+core_questions:
+- What is the primary molecular contrast?
+- Is the signal visible at participant/donor level?
+- Is the result robust to reasonable model/participant perturbations?
+- Is there external or cross-dataset support?
+- Is pathway/mechanistic interpretation directly supported?
+main_figure_archetypes:
+- name: design_and_primary_contrast
+  evidence_families:
+  - design
+  - primary_effect
+- name: participant_and_model_support
+  evidence_families:
+  - participant_level
+  - robustness
+- name: external_context
+  evidence_families:
+  - external_context
+  - replication
+- name: mechanistic_extension
+  evidence_families:
+  - mechanism
+  optional: true
+preferred_chart_types:
+- effect_plot
+- dot_box
+- paired_dot
+- heatmap
+- lollipop
+- evidence_matrix
+supplementary_preferred:
+- full_deg_table
+- threshold_sweeps
+- complete_qc
+- large_pathway_catalog
+risk_flags:
+- volcano_plot_without_full_universe_question
+- large_heatmap_without_inferential_role
+- pathway_as_mechanistic_proof
+- cell_or_sample_pseudoreplication
+benchmark_terms:
+- bulk transcriptomics
+- RNA-seq
+- pseudobulk
+- differential expression
+- participant-level
+- robustness
+- external validation
