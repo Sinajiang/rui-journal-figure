@@ -1,0 +1,70 @@
+{
+  "project": "Top Journal Figure Pro",
+  "version": "v3.20.7",
+  "step": "Step84 R1",
+  "date": "2026-09-26",
+  "decision": "PROMOTED",
+  "authority": {
+    "version_level": "AUTHORITATIVE ENGINEERING RELEASE",
+    "exact_distribution": "AUTHORITATIVE EXACT DISTRIBUTION"
+  },
+  "exact_package": {
+    "filename": "TOP_JOURNAL_FIGURE_PRO_v3.20.7_STEP84_R1_AUTHORITY_SEALED_RELEASE_BUILD_AWAITING_EXACT_SHA_APPROVAL_20260925.zip",
+    "sha256": "7b1a382d27e759e35b9ee77f2a97e8d804bb6932127a08a03a98d52be0f5c470",
+    "size_bytes": 91290760,
+    "zip_file_entries": 3651,
+    "zip_directory_entries": 414,
+    "zip_total_entries": 4065,
+    "zip_crc": "PASS"
+  },
+  "promotion_model": "detached_exact_sha_receipt",
+  "byte_policy": {
+    "rebuild": false,
+    "rename": false,
+    "byte_modification": false
+  },
+  "previous_machine_resolvable_authority": {
+    "version": "v3.20.6 Step83 R2",
+    "sha256": "2017a0b9422a1a48a5dfe88950b455f0e3703072df11a7b8741251786a615c37",
+    "status": "SUPERSEDED HISTORICAL AUTHORITY / RETAINED"
+  },
+  "superseded_invalidated_candidate": {
+    "version": "v3.20.7 Step84",
+    "sha256": "136e27508cce7bd43453cb056c20e6973ea24db08d336069909a72a8d3928e49",
+    "status": "EXTERNALLY APPROVED PREVIOUSLY / MACHINE AUTHORITY RESOLUTION INVALID / SUPERSEDED"
+  },
+  "frozen_authority": {
+    "Figure 1 R9": "AUTHOR VISUAL PASS / FROZEN",
+    "Figure 2 R4": "AUTHOR VISUAL PASS / FROZEN",
+    "Figure 3 R5": "AUTHOR VISUAL PASS / FROZEN"
+  },
+  "engineering_closure": {
+    "tests_tree": "845/845 PASS",
+    "solution_library": "9/9 PASS",
+    "total": "854/854 PASS",
+    "renderer_smoke": "48/48 PASS",
+    "structural_visual_contracts": "48/48 PASS",
+    "coverage_issues": 0,
+    "step78_qa": "11/11 PASS",
+    "step78_real_bidirectional": "4/4 PASS",
+    "step81_bidirectional": "4/4 PASS",
+    "frozen_authority_no_drift": "12/12 exact-byte PASS",
+    "fresh_extraction": "3651/3651 exact-byte parity",
+    "canonical_manifest": "3649/3649 PASS",
+    "release_integrity": "PASS",
+    "mature_full_tree_gate": "PASS",
+    "cache_artifacts": 0
+  },
+  "authority_resolution": {
+    "matching_receipt": "AUTHORITATIVE_EXACT_DISTRIBUTION_RESOLVED",
+    "stale_or_mismatched_receipt": "FAIL_CLOSED",
+    "development_package_upgrade_by_receipt": "PROHIBITED"
+  },
+  "capability_boundary": {
+    "production_autonomous_generic_repair": "DISABLED / UNVALIDATED",
+    "generic_repair_executor": "UNVALIDATED",
+    "r18_adapter": "EXACT_CASE_REPLAY_ONLY / QUARANTINED",
+    "human_final_size_adjudication": "MANDATORY"
+  },
+  "governance_status": "Step84 R1 CLOSED; future development must branch from this exact authoritative distribution."
+}

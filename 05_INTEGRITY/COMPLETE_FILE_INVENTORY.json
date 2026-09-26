@@ -1,0 +1,47 @@
+{
+  "project": "Top Journal Figure Pro",
+  "bundle": "v3.20.7 Step84 R1 Complete Release Bundle",
+  "file_count": 8,
+  "files": [
+    {
+      "path": "00_README_CURRENT_AUTHORITY.md",
+      "size_bytes": 2235,
+      "sha256": "ecffba6afbd51e2120148388ace582f31c0644420e76cde1f65938a52ad7aadc"
+    },
+    {
+      "path": "01_AUTHORITATIVE_SKILL/TOP_JOURNAL_FIGURE_PRO_v3.20.7_STEP84_R1_AUTHORITY_SEALED_RELEASE_BUILD_AWAITING_EXACT_SHA_APPROVAL_20260925.zip",
+      "size_bytes": 91290760,
+      "sha256": "7b1a382d27e759e35b9ee77f2a97e8d804bb6932127a08a03a98d52be0f5c470"
+    },
+    {
+      "path": "02_AUTHORITY/TOP_JOURNAL_FIGURE_PRO_v3.20.7_STEP84_R1_DETACHED_PROMOTION_RECEIPT_20260926.json",
+      "size_bytes": 2673,
+      "sha256": "7af08823ef335e82d130f16314ff6e9b1a58c6edfa49e65478a6621098e0ad29"
+    },
+    {
+      "path": "02_AUTHORITY/TOP_JOURNAL_FIGURE_PRO_v3.20.7_STEP84_R1_EXACT_DISTRIBUTION_PROMOTION_CLOSURE_20260926.md",
+      "size_bytes": 2664,
+      "sha256": "9dda8c086756c7330256a25758c273184c5647eaded3b0031b31c87b2df3f448"
+    },
+    {
+      "path": "03_RUNTIME_ACCEPTANCE/TOP_JOURNAL_FIGURE_PRO_v3.20.7_STEP84_R1_POST_PROMOTION_RUNTIME_ACCEPTANCE_AND_STEP85_DECISION_20260926.md",
+      "size_bytes": 4295,
+      "sha256": "39d274a4e03e101360e09e956b1d2fcfbee62a6b122bbb169332776422e8e5a2"
+    },
+    {
+      "path": "04_HANDOFF/TOP_JOURNAL_FIGURE_PRO_NEW_CHAT_COMPLETE_HANDOFF_POST_STEP84_R1_MAINTENANCE_20260926.md",
+      "size_bytes": 9903,
+      "sha256": "7b8628f19c172fdbc93e2ec0673cef1eab8668fc40f783be4c47e4859d52014e"
+    },
+    {
+      "path": "05_INTEGRITY/RELEASE_BUNDLE_MANIFEST.json",
+      "size_bytes": 2222,
+      "sha256": "950aa9a49aedf85abaccd3dddb2b686022aacb1447fe7b29822d0339d4263361"
+    },
+    {
+      "path": "05_INTEGRITY/SHA256SUMS.txt",
+      "size_bytes": 989,
+      "sha256": "0b5be88dffb3c68c410e3ff076435e6bedda24d7d7efe2a68020bb06f7567c88"
+    }
+  ]
+}
